@@ -19,7 +19,7 @@ public class QuickSort {
     quickSortInternally(a, q+1, r);
   }
 
-  private static int pasrtition(int[] a, int p, int r) {
+  private static int passrtition(int[] a, int p, int r) {
     int pivot = a[r];
     int i = p;
     for(int j = p; j < r; ++j) {
