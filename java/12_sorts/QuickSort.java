@@ -19,7 +19,7 @@ public class QuickSort {
     quickSortInternally(a, q+1, r);
   }
 
-  private static int partition(int[] a, int p, int r) {
+  private static int pasrtition(int[] a, int p, int r) {
     int pivot = a[r];
     int i = p;
     for(int j = p; j < r; ++j) {
@@ -38,4 +38,11 @@ public class QuickSort {
     System.out.println("i=" + i);
     return i;
   }
+
+  public static void main(String[] args) {
+    int[] a = {6,5,4,76,4,2,8};
+    quickSort(a,7);
+  }
+
+
 }
