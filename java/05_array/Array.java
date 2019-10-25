@@ -79,7 +79,7 @@ public class Array {
         for (int i = 0; i < count; ++i) {
             System.out.print(data[i] + " ");
         }
-        System.out.println();
+        System.out.println("master");
     }
 
     public static void main(String[] args) {
